@@ -446,6 +446,8 @@ video {
   display: none;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -554,12 +556,150 @@ video {
   --tw-contain-style:  ;
 }
 
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.flex-drc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+@media not all and (min-width: 640px) {
+  .flex-drc {
+    flex-direction: column;
+  }
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* font style */
+
+.nav-heading {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+
+/* Utilties layer */
+
+/* components layer */
+
+/* base layer */
+
+@media not all and (min-width: 640px) {
+  .max-sm\:invisible {
+    visibility: hidden;
+  }
+
+  .max-sm\:hidden {
+    display: none;
+  }
+
+  .max-sm\:text-center {
+    text-align: center;
+  }
+
+  .max-sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .max-sm\:text-\[10px\] {
+    font-size: 10px;
+  }
+
+  .max-sm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .max-sm\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .max-sm\:text-\[\] {
+    color: ;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:invisible {
+    visibility: hidden;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-left {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
 }
