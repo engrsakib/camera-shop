@@ -743,6 +743,10 @@ video {
     width: 350px;
   }
 
+  .max-sm\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .max-sm\:text-center {
     text-align: center;
   }
