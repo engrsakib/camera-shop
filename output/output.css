@@ -747,6 +747,10 @@ video {
     width: 100%;
   }
 
+  .max-sm\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
   .max-sm\:text-center {
     text-align: center;
   }
