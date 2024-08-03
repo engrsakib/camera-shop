@@ -568,8 +568,32 @@ video {
   }
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mt-11 {
   margin-top: 2.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .flex {
@@ -580,6 +604,10 @@ video {
   height: auto;
 }
 
+.w-\[450px\] {
+  width: 450px;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -588,32 +616,46 @@ video {
   flex-direction: row;
 }
 
-.flex-col {
-  flex-direction: column;
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
-.justify-stretch {
-  justify-content: stretch;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.bg-\[\#E02C6D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 44 109 / var(--tw-bg-opacity));
 }
 
 .text-right {
@@ -625,9 +667,27 @@ video {
   line-height: 2rem;
 }
 
+.text-\[\#3A3A3A\] {
+  --tw-text-opacity: 1;
+  color: rgb(58 58 58 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .width80 {
   width: 80%;
   margin: 0 auto;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width40 {
+  width: 40%;
 }
 
 /* font style */
@@ -638,7 +698,20 @@ video {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.main-heading {
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 50px;
   letter-spacing: 0px;
+}
+
+.btn {
+  width: 196px;
+  height: 44px;
 }
 
 /* Utilties layer */
@@ -648,37 +721,42 @@ video {
 /* base layer */
 
 @media not all and (min-width: 640px) {
-  .max-sm\:invisible {
-    visibility: hidden;
+  .max-sm\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .max-sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .max-sm\:mt-20 {
+    margin-top: 5rem;
   }
 
   .max-sm\:hidden {
     display: none;
   }
 
+  .max-sm\:w-\[350px\] {
+    width: 350px;
+  }
+
   .max-sm\:text-center {
     text-align: center;
-  }
-
-  .max-sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .max-sm\:text-\[10px\] {
-    font-size: 10px;
   }
 
   .max-sm\:text-\[18px\] {
     font-size: 18px;
   }
 
-  .max-sm\:text-\[20px\] {
-    font-size: 20px;
+  .max-sm\:text-\[27px\] {
+    font-size: 27px;
   }
 
-  .max-sm\:text-\[\] {
-    color: ;
+  .max-sm\:width100 {
+    width: 100%;
   }
 }
 
