@@ -1,245 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Camera Shop</title>
     <!-- links fontawesome -->
-    <script src="https://kit.fontawesome.com/3c3766bed1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3c3766bed1.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- font popins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link with tailwind css -->
-     <link rel="stylesheet" href="./output/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./output/output.css" />
+  </head>
+  <body>
     <!-- header section start -->
-     <header class="width100 h-auto">
-        <!-- nav menue and header start -->
-         <div class="mt-11">
-            <nav class="width80 flex justify-between gap-3">
-                <!-- mobile menu start -->
-                <i class="fa-solid fa-bars sm:hidden text-2xl"></i>
-                <!-- mobile menu end -->
-                <!-- text start -->
-                <h1 class="nav-heading max-sm:text-center md:text-left max-sm:text-[18px]">Influencer products</h1>
-                 <!-- text end -->
-                 <!-- manu and Card start -->
-                  <div class="flex-drc gap-5">
-                     <!-- manu start -->
-                  <ul class="flex-drc gap-5 max-sm:hidden">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Sign up</a></li>
-                    <li><a href="">Log In</a></li>
-                </ul>
-                  <!-- manu end -->
-                  <!-- card start -->
-                   <div class="flex flex-row gap-4">
-                     <!-- search start -->
-                   <i class="fa-solid fa-magnifying-glass max-sm:hidden lg:visible text-right text-2xl"></i>
-                   <!-- search end -->
-                   <!-- cart start -->
-                   <i class="fa-solid fa-cart-shopping sm:invisible lg:visible text-right text-2xl"></i>
-                   <!-- cart end -->
-                  </div>
-                 <!-- manu and Card end -->
-                   </div>
-                  <!-- card end -->
-             </nav>
-         </div>
-        <!-- nav menue and header end -->
-     </header>
+    <header class="width100 h-auto">
+      <!-- nav menue and header start -->
+      <div class="mt-11">
+        <nav class="width80 flex justify-between gap-3">
+          <!-- mobile menu start -->
+          <i class="fa-solid fa-bars sm:hidden text-2xl"></i>
+          <!-- mobile menu end -->
+          <!-- text start -->
+          <h1
+            class="nav-heading max-sm:text-center md:text-left max-sm:text-[18px]"
+          >
+            Influencer products
+          </h1>
+          <!-- text end -->
+          <!-- manu and Card start -->
+          <div class="flex-drc gap-5">
+            <!-- manu start -->
+            <ul class="flex-drc gap-5 max-sm:hidden">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Sign up</a></li>
+              <li><a href="">Log In</a></li>
+            </ul>
+            <!-- manu end -->
+            <!-- card start -->
+            <div class="flex flex-row gap-4">
+              <!-- search start -->
+              <i
+                class="fa-solid fa-magnifying-glass max-sm:hidden lg:visible text-right text-2xl"
+              ></i>
+              <!-- search end -->
+              <!-- cart start -->
+              <i
+                class="fa-solid fa-cart-shopping sm:invisible lg:visible text-right text-2xl"
+              ></i>
+              <!-- cart end -->
+            </div>
+            <!-- manu and Card end -->
+          </div>
+          <!-- card end -->
+        </nav>
+      </div>
+      <!-- nav menue and header end -->
+    </header>
     <!-- header section end -->
-     <!-- main section start -->
-      <main class="width100">
-        <!-- header part start -->
-         <section class="width80 flex-drc max-sm:flex-col-reverse">
-          <!-- text part start -->
-           <div class="width50 max-sm:width100 max-sm:mt-20 mt-36">
-            <h1 class="main-heading text-[#3A3A3A] max-sm:text-[27px] max-sm:text-center">Start your Journey as 
-              Influencer</h1>
-              <p class="prahraph text-[#3A3A3A] mb-6">A camera captures moments, freezing time into images. It transforms reality into art, preserving memories and telling stories through a lens. A window to countless perspectives.</p>
-              
-                <button class="btn mt-7 bg-[#E02C6D] text-white rounded-2xl max-sm:my-0 max-sm:mx-auto max-sm:mb-7">pre-book now <i class="fa-solid fa-arrow-right ml-2"></i></button>
-           </div>
-          <!-- text part end -->
-           <!-- Img part start -->
-            <picture class="width40 max-sm:width100 mt-7 max-sm:mt-20">
-              <div class="w-[450px] max-sm:w-[100%] h-auto border-dashed border-2 mb-7 border-gray-500">
-                
-                  <img src="./influencer-gear/images/main-camera.png" alt="main camera">
-              </div>
-            </picture>
-           <!-- Img part end -->
-         </section>
-        <!-- header part end -->
-         <!-- our valuable pratner start -->
-          <section class="width80 grid grid-cols-7 max-md:grid-cols-4 max-sm:gap-5 mt-7 place-content-between">
-            <img src="./influencer-gear/logos/Alibaba.svg" alt="Alibaba">
-            <img src="./influencer-gear/logos/Amazon.svg" alt="Amazon">
-            <img src="./influencer-gear/logos/Daraz.pk Logo.svg" alt="Amazon">
-            <img src="./influencer-gear/logos/Ebay.svg" alt="Ebay">
-            <img class=" " src="./influencer-gear/logos/Rakuten.svg" alt="Rakuten">
-            <img class=" " src="./influencer-gear/logos/Target.svg" alt="Target">
-            <img src="./influencer-gear/logos/Walmart.svg" alt="Walmart">
-          </section>
-         <!-- our valuable pratner end -->
-          <!-- popular collection start -->
-           <section class="width80">
-            <h1 class="nav-heading text-center mt-12">Popular Collection</h1>
-            <!-- card section start -->
-             <div class="grid grid-cols-3 max-sm:grid-cols-1 gap-7 mt-7">
-              <!-- 1 start -->
-              <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/1.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Flex Tripod</h1>
-                <p class="pragraph text-2xl">$50.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 1 end -->
+    <!-- main section start -->
+    <main class="width100">
+      <!-- header part start -->
+      <section class="width80 flex-drc max-sm:flex-col-reverse">
+        <!-- text part start -->
+        <div class="width50 max-sm:width100 max-sm:mt-20 mt-36">
+          <h1
+            class="main-heading text-[#3A3A3A] max-sm:text-[27px] max-sm:text-center"
+          >
+            Start your Journey as Influencer
+          </h1>
+          <p class="prahraph text-[#3A3A3A] mb-6">
+            A camera captures moments, freezing time into images. It transforms
+            reality into art, preserving memories and telling stories through a
+            lens. A window to countless perspectives.
+          </p>
 
-               <!-- 2 start -->
-               <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/2.png" alt="camera">
-                <h1 class="nav-heading text-3xl">microphone</h1>
-                <p class="pragraph text-2xl">$150.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 2 end -->
+          <button
+            class="btn mt-7 bg-[#E02C6D] text-white rounded-2xl max-sm:my-0 max-sm:mx-auto max-sm:mb-7"
+          >
+            pre-book now <i class="fa-solid fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+        <!-- text part end -->
+        <!-- Img part start -->
+        <picture class="width40 max-sm:width100 mt-7 max-sm:mt-20">
+          <div
+            class="w-[450px] max-sm:w-[100%] h-auto border-dashed border-2 mb-7 border-gray-500"
+          >
+            <img
+              src="./influencer-gear/images/main-camera.png"
+              alt="main camera"
+            />
+          </div>
+        </picture>
+        <!-- Img part end -->
+      </section>
+      <!-- header part end -->
+      <!-- our valuable pratner start -->
+      <section class="container mx-auto">
+        <div class="grid grid-cols-4 gap-4">
+          <div class="flex justify-center">
+            <img src="./influencer-gear/logos/Alibaba.svg" alt="Alibaba" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./influencer-gear/logos/Amazon.svg" alt="Amazon" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./influencer-gear/logos/Daraz.pk Logo.svg" alt="Amazon" />
+          </div>
+          <div class="flex justify-center">
+            <img src="./influencer-gear/logos/Ebay.svg" alt="Ebay" />
+          </div>
+        </div>
+        <div class="flex justify-center mt-8">
+          <div class="w-[800px] max-sm:w-[300px] grid grid-cols-3 gap-4">
+            <div class="flex justify-center">
+              <img
+                class=" "
+                src="./influencer-gear/logos/Rakuten.svg"
+                alt="Rakuten"
+              />
+            </div>
+            <div class="flex justify-center">
+              <img
+                class=" "
+                src="./influencer-gear/logos/Target.svg"
+                alt="Target"
+              />
+            </div>
+            <div class="flex justify-center">
+              <img src="./influencer-gear/logos/Walmart.svg" alt="Walmart" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our valuable pratner end -->
+      <!-- popular collection start -->
+      <section class="width80">
+        <h1 class="nav-heading text-center mt-12">Popular Collection</h1>
+        <!-- card section start -->
+        <div
+          class="width100 grid grid-cols-3 max-sm:grid-cols-1 max-sm:mx-auto items-center justify-center gap-7 mt-7"
+        >
+          <!-- 1 start -->
+          <div
+            class="max-sm:col-span-1 w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/1.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Flex Tripod</h1>
+            <p class="pragraph text-2xl">$50.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 1 end -->
 
-               <!-- 3 start -->
-               <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/3.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Drone Camera</h1>
-                <p class="pragraph text-2xl">$279.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 3 end -->
+          <!-- 2 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/2.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">microphone</h1>
+            <p class="pragraph text-2xl">$150.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 2 end -->
 
-               <!-- 4 start -->
-               <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/4.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Flex Light</h1>
-                <p class="pragraph text-2xl">$30.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 4 end -->
+          <!-- 3 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/3.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Drone Camera</h1>
+            <p class="pragraph text-2xl">$279.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 3 end -->
 
-              <!-- 5 start -->
-              <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/5.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Flex Camera</h1>
-                <p class="pragraph text-2xl">$55.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 5 end -->
+          <!-- 4 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/4.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Flex Light</h1>
+            <p class="pragraph text-2xl">$30.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 4 end -->
 
-              <!-- 6 start -->
-              <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/6.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Air Bard</h1>
-                <p class="pragraph text-2xl">$18.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 6 end -->
+          <!-- 5 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/5.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Flex Camera</h1>
+            <p class="pragraph text-2xl">$55.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 5 end -->
 
-              <!-- 7 start -->
-              <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/7.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Digital Camera</h1>
-                <p class="pragraph text-2xl">$130.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 7 end -->
+          <!-- 6 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/6.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Air Bard</h1>
+            <p class="pragraph text-2xl">$18.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 6 end -->
 
-              <!-- 8 start -->
-              <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/8.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Flex High Light</h1>
-                <p class="pragraph text-2xl">$61.49</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 8 end -->
+          <!-- 7 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/7.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Digital Camera</h1>
+            <p class="pragraph text-2xl">$130.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 7 end -->
 
-              <!-- 9 start -->
-              <div class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl">
-                <img class="w-[300px mt-5 h-[256px]" src="./influencer-gear/images/9.png" alt="camera">
-                <h1 class="nav-heading text-3xl">Gare Items</h1>
-                <p class="pragraph text-2xl">$57.48</p>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-solid fa-star text-orange-600"></i>
-                <i class="fa-regular fa-star text-orange-600"></i>
-                <p class="pragraph text-[14px]">Wordwide shifting available
-                  Buyers protection possible!</p>
-                  <button class="btn bg-green-900 text-white rounded-2xl mt-2">Buy Now</button>
-              </div>
-              <!-- 9 end -->
-             </div>
-             <h4 class="text-xl text-right cursor-pointer text-[#E02C6D] mt-8">Buy more <i class="fa-solid fa-arrow-right pl-3"></i></h4>
-            <!-- card section end -->
-           </section>
-          <!-- popular collection end -->
-      </main>
-     <!-- main section end -->
-</body>
+          <!-- 8 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/8.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Flex High Light</h1>
+            <p class="pragraph text-2xl">$61.49</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 8 end -->
+
+          <!-- 9 start -->
+          <div
+            class="w-[329px] h-[500px] p-5 rounded-md bg-white drop-shadow-2xl"
+          >
+            <img
+              class="w-[300px mt-5 h-[256px]"
+              src="./influencer-gear/images/9.png"
+              alt="camera"
+            />
+            <h1 class="nav-heading text-3xl">Gare Items</h1>
+            <p class="pragraph text-2xl">$57.48</p>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-solid fa-star text-orange-600"></i>
+            <i class="fa-regular fa-star text-orange-600"></i>
+            <p class="pragraph text-[14px]">
+              Wordwide shifting available Buyers protection possible!
+            </p>
+            <button class="btn bg-green-900 text-white rounded-2xl mt-2">
+              Buy Now
+            </button>
+          </div>
+          <!-- 9 end -->
+        </div>
+        <h4 class="text-xl text-right cursor-pointer text-[#E02C6D] mt-8">
+          Buy more <i class="fa-solid fa-arrow-right pl-3"></i>
+        </h4>
+        <!-- card section end -->
+      </section>
+      <!-- popular collection end -->
+    </main>
+    <!-- main section end -->
+  </body>
 </html>
