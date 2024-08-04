@@ -683,6 +683,10 @@ video {
   width: 800px;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -948,6 +952,10 @@ video {
     margin-top: 1rem;
   }
 
+  .max-sm\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .max-sm\:hidden {
     display: none;
   }
@@ -990,6 +998,11 @@ video {
 
   .max-sm\:width100 {
     width: 100%;
+  }
+
+  .max-sm\:width80 {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
